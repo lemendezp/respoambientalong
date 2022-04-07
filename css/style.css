@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: 'Bubbleboddy';
+ 	src: url("Bubbleboddy.ttf") format('truetype');
+  	font-style: normal;
+}
+
+body{
+	font-family: Bubbleboddy;
+	margin: 0;
+	padding:0;
+	border-style: solid;
+	border-color: lightblue
+}
+
+.navbar-nav{
+
+	background-color: #D78428E6;
+	height: 6rem;
+	align-items: center;
+	font-size: 40px;
+
+}
+
+ $primary: #e84c22;
+
+@import "bootstrap";
+
+.btn-primary {
+    color: #84B33D;
+ }  
+
+.verde{
+	background-color: chartreuse;
+	height: 6rem;
+	
+}
+
+.morado{
+	background-color: purple;
+	height: 30rem;
+	
+
+}
+
+.white{
+	text-align: center;
+	background-color: noun;
+	height: 35rem
+}
+
+
+.blanco{
+	text-align: center;
+	background-color: ghostwhite;
+	height: 35rem
+}
+
+
+.gris1{
+	text-align: center;
+	background-color: #D78428;
+	height: 100%
+
+	}
+
+.gris2{
+	text-align: center;
+	background-color: #D78428;
+	height: 100%
+
+	}
+
+.gris3{
+	text-align: center;
+	background-color: #D78428;
+	height: 100%
+
+	}
+
+a:active{
+	color: #84B33D;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+h1:hover{
+color: #D78428;
+text-decoration: underline;
+}
+
+p:nth-child(1){
+	background-color: #84B33D;
+
+}
+
+	/*.row{
+	border-style: solid;
+	border-color: lightblue;*/
+}
+
+
+/*comienzo de consulta de mnedios*/
+
+@media only screen and (max-width: 600px) {
+  .morado{
+	background-color: darkred;
+	height: 30rem;
+	
+  }
+  .naranja{
+		background-color: gray;
+		height: 35rem	
+}
+
+
